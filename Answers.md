@@ -3,8 +3,8 @@
 Ans :
       The relationship between the "Product" and "Product_Category" entities in the provided diagram is typically represented as a one-to-many relationship. In this relationship:
       
-      - One product category can have multiple products associated with it.
-      - However, each product can belong to only one product category.
+- One product category can have multiple products associated with it.
+- However, each product can belong to only one product category.
           
 This relationship is implemented by using a foreign key in the "Product" table that references the primary key of the "Product_Category" table. This foreign key constraint ensures that each product is assigned to a valid product category. By establishing this relationship, it becomes easier to organize and categorize products, enabling efficient management and retrieval of information based on product categories.
 
