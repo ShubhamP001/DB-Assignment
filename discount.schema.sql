@@ -1,0 +1,10 @@
+CREATE TABLE discount (
+    id INT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    `desc` TEXT,
+    discount_percent DECIMAL,
+    `active` BOOLEAN,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    modified_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    deleted_at TIMESTAMP
+);
